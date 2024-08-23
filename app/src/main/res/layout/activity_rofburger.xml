@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="394dp"
+        android:layout_height="133dp"
+
+        android:id="@+id/cardview4"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardview3" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="89dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/f"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/res4"
+                android:layout_width="230dp"
+
+                android:layout_height="53dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:text=" MSFY"
+                android:textSize="40sp"
+                app:layout_constraintStart_toEndOf="@+id/image4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview3"
+        android:layout_width="394dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardview2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="396dp"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="89dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/burgerslide"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/res3"
+                android:layout_width="250dp"
+
+                android:layout_height="78dp"
+                android:layout_marginStart="36dp"
+                android:text="  Burgerslide"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/image3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview2"
+        android:layout_width="394dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardview1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="396dp"
+            android:layout_height="130dp">
+
+            <ImageView
+                android:id="@+id/res2"
+                android:layout_width="89dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/burgerking"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitem2"
+                android:layout_width="262dp"
+
+                android:layout_height="56dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="44dp"
+                android:text="Burger King"
+                android:textSize="40sp"
+                app:layout_constraintStart_toEndOf="@+id/res2"
+
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardview1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_default="wrap">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="396dp"
+            android:layout_height="124dp">
+
+            <ImageView
+                android:id="@+id/res1"
+                android:layout_width="89dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="4dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kfc"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartitem"
+                android:layout_width="146dp"
+
+                android:layout_height="66dp"
+                android:layout_marginStart="84dp"
+                android:layout_marginTop="16dp"
+                android:text="KFC"
+                android:textSize="40sp"
+                app:layout_constraintStart_toEndOf="@+id/res1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

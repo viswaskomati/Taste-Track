@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".location">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="311dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="116dp"
+        android:text="Discover Stores and Items near you"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView1"
+        app:layout_constraintHorizontal_bias="0.309"
+        app:layout_constraintStart_toStartOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:endIconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView1"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="@+id/textView1"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:layout_constraintVertical_bias="0.068"
+        tools:ignore="MissingConstraints">
+
+        <AutoCompleteTextView
+            android:id="@+id/atv_location"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="none"
+            android:text="           Choose the location" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="269dp"
+        android:layout_height="46dp"
+        android:text="      Set Location"
+        android:textSize="30dp"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="294dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+        app:srcCompat="@drawable/locationimage" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
